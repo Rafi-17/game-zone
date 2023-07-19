@@ -1,0 +1,88 @@
+/* shared */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700;800&family=Roboto&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.common-text {
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Header styles */
+/* Nav styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 240px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+nav .nav-content {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+.nav-img {
+    width: 86px;
+    height: 40px;
+
+}
+
+.nav-title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.nav-title span {
+    color: #FF42A5;
+}
+
+.follow-box-container {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 17px 16px 18px 24px;
+    display: flex;
+    align-items: center;
+}
+
+.fa-brands {
+    font-size: 33px;
+}
+
+.fa-youtube {
+    margin-left: 24px;
+    color: red;
+}
+
+.fa-tiktok {
+    margin-left: 16px;
+    color: black;
+}
