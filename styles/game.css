@@ -186,14 +186,57 @@ nav ul a {
 }
 
 /* online games */
-.special-img:hover {
+/* .special-img:hover {
     box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.5), inset -6px -6px 10px 0 rgba(0, 0, 0, 0.5);
     content: 'Watch Now';
     text-align: center;
     font-size: 20px;
     font-weight: 600;
     color: #FF42A5;
+} */
+.hover-help {
+    position: relative;
 }
+
+.hover-content {
+    width: 100%;
+    height: 80%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.hover-content:hover {
+    opacity: 1;
+}
+
+.hover-content .icon {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.hover-content .icon-description {
+    color: #FF42A5;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.online-img-section img {
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    display: block;
+}
+
 
 .online-game {
     padding: 0 200px;
@@ -224,10 +267,7 @@ nav ul a {
     gap: 24px;
 }
 
-.online-img-section img {
-    width: 300px;
-    height: 350px;
-}
+
 
 .img-container p {
     color: #534C64;
@@ -546,19 +586,22 @@ footer .last {
         padding: 0px;
         gap: 0px;
     }
-    .special{
+
+    .special {
         gap: 8px;
     }
 
-    .special img  {
+    .special img {
         margin: 0px;
         padding-right: 0px;
     }
-    .special span{
+
+    .special span {
         margin-left: 0px;
         padding-left: 0px;
     }
-    .btn6{
+
+    .btn6 {
         margin-left: 0px;
     }
 
@@ -679,18 +722,22 @@ footer .last {
         padding: 0px;
         gap: 5px;
     }
-    .special img{
+
+    .special img {
         margin-right: 0px;
         padding-right: 0px;
     }
-    .special span{
+
+    .special span {
         padding-left: 0px;
         margin-left: 0px;
     }
-    .btn6{
+
+    .btn6 {
         margin-left: 0px;
     }
-    .btn9{
+
+    .btn9 {
         margin: 0 auto;
     }
 
