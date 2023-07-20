@@ -40,7 +40,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0 150px;
-    margin: 0 auto;
+    margin: 0 auto 50px;
     /* border: 2px solid yellow; */
 }
 
@@ -151,11 +151,16 @@ nav ul a {
 .gamer {
     margin-top: 40px;
     display: flex;
-    padding: 0 50px;
+    padding: 0 70px;
+}
+.gamer img{
+    width: 50%;
+    padding-left: 60px;
 }
 
 .gamer-content {
     text-align: right;
+    padding-left: 30px;
 }
 
 .gamer-content h3 {
@@ -186,21 +191,13 @@ nav ul a {
 }
 
 /* online games */
-/* .special-img:hover {
-    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.5), inset -6px -6px 10px 0 rgba(0, 0, 0, 0.5);
-    content: 'Watch Now';
-    text-align: center;
-    font-size: 20px;
-    font-weight: 600;
-    color: #FF42A5;
-} */
 .hover-help {
     position: relative;
 }
 
 .hover-content {
     width: 100%;
-    height: 80%;
+    height: 83%;
     top: 0;
     left: 0;
     position: absolute;
@@ -239,6 +236,7 @@ nav ul a {
 
 
 .online-game {
+    margin-top: 130px;
     padding: 0 200px;
 }
 
@@ -271,7 +269,7 @@ nav ul a {
 
 .img-container p {
     color: #534C64;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -300,11 +298,13 @@ nav ul a {
     color: #534C64;
     font-size: 1.125rem;
     font-weight: 400;
+    margin-top: 0px;
 }
 
 .play-content-title {
     font-size: 3rem;
     font-weight: 700;
+    margin-bottom: 30px;
 }
 
 .play-img-container {
@@ -324,7 +324,7 @@ nav ul a {
 
 /* button section */
 .grid-btn {
-    margin-top: 140px;
+    margin-top: 155px;
     display: flex;
     flex-wrap: wrap;
     padding-left: 190px;
@@ -348,13 +348,17 @@ nav ul a {
 .special img {
     padding-left: 5px;
     width: 40px;
-    margin-right: 6px;
+    margin-right: 0px;
+    padding-right: 0px;
 }
 
 .special span {
     color: #0B0223;
     font-size: 1rem;
     font-weight: 600;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 5px;
 }
 
 .btn6 {
@@ -445,7 +449,10 @@ footer .last {
 
 /* Responsive Styles */
 
-/* Mobile Devices */
+/* Mobile Devices
+            Mobile Devices
+                    Mobile Devices
+                            Mobile Devices  */
 
 
 
@@ -476,8 +483,12 @@ footer .last {
 
     nav {
         flex-direction: column;
-        padding: 0 20px;
+        padding-left: 20px;
+        padding-right: 50px;
         text-align: center;
+    }
+    .follow-box-container{
+        padding: 10px;
     }
 
     nav ul {
@@ -499,8 +510,10 @@ footer .last {
     }
 
     .banner-content {
+        margin-top: 70px;
         text-align: center;
         background-image: url('../images/Group\ 14.png');
+        padding: 10px 20px;
     }
 
     .banner-text {
@@ -510,15 +523,12 @@ footer .last {
 
     .btn-primary {
         margin-top: 10px;
-        padding: 10px 15px;
-        border: none;
-    }
+        padding: 7px 11px;
+        border: none;    }
 
     .btn-sign {
-        padding: 10px 20px;
-        margin-right: 0px;
+        padding: 7px 20px;
     }
-
     /* gamer */
     .gamer {
         flex-direction: column;
@@ -526,7 +536,8 @@ footer .last {
     }
 
     .gamer img {
-        width: 70vw;
+        width: 100vw;
+        padding-right: 70px;
     }
 
     .gamer-content {
@@ -534,13 +545,32 @@ footer .last {
     }
 
     /* online games */
+    .hover-content{
+        height: 92%;
+    }
+    .hover-content .icon-description{
+        font-size: 1.8rem;
+    }
     .online-img-section {
         flex-direction: column;
         align-items: center;
     }
 
     .online-game {
+        margin-top: 60px;
         padding: 0 20px;
+    }
+    .online-description{
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+    .online-img-section .img-container img{
+        height: 340px;
+    }
+    .img-container p{
+        text-align: center;
+        margin-top: 15px;
+        font-size: 1.25rem;
     }
 
     .online-title span {
@@ -553,6 +583,7 @@ footer .last {
     }
 
     .play-content {
+        width: 70vw;
         text-align: center;
         margin-left: 230px;
 
@@ -564,6 +595,11 @@ footer .last {
 
     .play-content-title span {
         font-size: 3rem;
+        margin-bottom: 5px;
+    }
+    .play-content-description{
+        text-align: center;
+        margin-bottom: 40px;
     }
 
     .play-img-container {
@@ -585,15 +621,17 @@ footer .last {
     .grid-btn {
         padding: 0px;
         gap: 0px;
+        margin: 100px 10px 0 10px;
     }
 
     .special {
-        gap: 8px;
+        gap: 4px;
     }
 
     .special img {
         margin: 0px;
         padding-right: 0px;
+        width: 30px;
     }
 
     .special span {
@@ -601,8 +639,15 @@ footer .last {
         padding-left: 0px;
     }
 
+    .btn1{
+        margin-left: 10px;
+    }
+
     .btn6 {
         margin-left: 0px;
+    }
+    .btn7{
+        margin-left: 6px;
     }
 
 
@@ -610,28 +655,59 @@ footer .last {
     .div1 .foot-title span {
         font-size: 3rem;
     }
+    .div1 .foot-img{
+        width: 10%;
+    }
+    .div1 .foot-title{
+        margin-left: 10px;
+    }
 
     .div2 {
+        padding-right: 20px;
         display: grid;
         grid-template-columns: repeat(3, 50px);
         gap: 5px;
+        margin-bottom: 20px;
     }
 
     .div3 {
+        width: 50vw;
+        margin: 0 auto;
         display: grid;
-        grid-template-columns: repeat(3, 50px);
-        gap: 7px;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 10px;
+        gap: 0px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+    .fa-instagram, .fa-facebook{
+        padding-left: 10px;
+    }
+    .fa-apple{
+        padding-left: 27px;
     }
 
     .div4 {
         display: grid;
         grid-template-columns: repeat(2, 100px);
-        gap: 7px;
+        column-gap: 7px;
+        row-gap: 2px;
+        margin-bottom: 30px;
+    }
+    footer .last{
+        width: 33vw;
+        margin: 0 auto;
+    }
+    footer .last span{
+        padding: 25px;
     }
 
 }
 
-/* Tablet */
+/* Tablet 
+                TABLET
+                                TABLET
+                                                TABLET  */
 @media screen and (min-width: 576px) and (max-width: 992px) {
     * {
         font-size: 12px;
@@ -640,10 +716,15 @@ footer .last {
     /* nav */
     .navdiv {
         box-shadow: none;
+        margin-bottom: 50px;
     }
 
     nav {
+        flex-direction: column;
         padding: 0 20px;
+    }
+    .follow-box-container{
+        padding: 12px;
     }
 
     .nav-title span {
@@ -652,7 +733,6 @@ footer .last {
 
     /* banner */
     .banner-container {
-        flex-direction: column-reverse;
         padding: 0 30px;
     }
 
@@ -662,8 +742,9 @@ footer .last {
 
     .btn-primary {
         margin-top: 10px;
-        padding: 15px 20px;
+        padding: 10px 15px;
         border: none;
+        font-size: 1rem;
     }
 
     /* gamer */
@@ -686,8 +767,14 @@ footer .last {
     }
 
     .online-img-section {
-        flex-direction: column;
-        align-items: center;
+        /* flex-direction: column;
+        align-items: center; */
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    .img-container p{
+        text-align: center;
     }
 
     .online-title span {
@@ -696,9 +783,16 @@ footer .last {
 
     /* play */
     .play-content {
+        width: 80vw;
         text-align: center;
         margin-left: 230px;
 
+    }
+    .play-content-title span{
+        font-size: 3rem;
+    }
+    .play-content-description{
+        margin-bottom: 60px;
     }
 
     .play-container {
@@ -718,14 +812,15 @@ footer .last {
 
     /* btn */
     .grid-btn {
-        margin-top: 140px;
-        padding: 0px;
-        gap: 5px;
+        margin-top: 160px;
+        padding: 15px;
+        gap: 4px;
     }
 
     .special img {
         margin-right: 0px;
         padding-right: 0px;
+        width: 35px;
     }
 
     .special span {
@@ -748,20 +843,27 @@ footer .last {
 
     .div2 {
         display: grid;
-        grid-template-columns: repeat(3, 50px);
+        grid-template-columns: repeat(6,1fr);
         gap: 5px;
+        margin-bottom: 20px;
     }
 
     .div3 {
         display: grid;
-        grid-template-columns: repeat(3, 50px);
+        grid-template-columns: repeat(6, 1fr);
+        padding-left: 65px;
         gap: 7px;
+        margin-bottom: 20px;
     }
 
     .div4 {
-        display: grid;
-        grid-template-columns: repeat(2, 100px);
+        /* display: grid; */
+        /* grid-template-columns: repeat(2, 100px); */
         gap: 7px;
+        margin-bottom: 30px;
+    }
+    .div4 p{
+        margin-right: 20px;
     }
 
 }
