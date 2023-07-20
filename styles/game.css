@@ -285,10 +285,10 @@ nav ul a {
 /* button section */
 .grid-btn {
     margin-top: 140px;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    padding: 0 150px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 190px;
+    padding-right: 100px;
     gap: 10px;
 }
 
@@ -301,8 +301,8 @@ nav ul a {
     align-items: center;
     text-decoration: none;
     padding-left: 5px;
-    width: 40px;
     margin-right: 6px;
+    gap: 25px;
 }
 
 .special img {
@@ -313,44 +313,12 @@ nav ul a {
 
 .special span {
     color: #0B0223;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
 }
 
-.btn1 {
-    width: 250px;
-}
-
-.btn2 {
-    width: 280px;
-}
-
-.btn3 {
-    width: 240px;
-}
-
-.btn4 {
-    width: 220px;
-}
-
-.btn5 {
-    width: 180px;
-}
-
 .btn6 {
-    width: 240px;
-}
-
-.btn7 {
-    width: 240px;
-}
-
-.btn8 {
-    width: 240px;
-}
-
-.btn9 {
-    width: 240px;
+    margin-left: 60px;
 }
 
 .special:hover {
@@ -567,7 +535,6 @@ footer .last {
     }
 
     .cat-img {
-        /* position: absolute; */
         width: 125px;
         position: absolute;
         top: 120px;
@@ -576,49 +543,25 @@ footer .last {
 
     /* btn */
     .grid-btn {
-        margin-top: 140px;
-        grid-template-columns: repeat(3, 1fr);
         padding: 0px;
         gap: 0px;
     }
-
-    .special {}
-
-    .btn1 {
-        width: 60px;
+    .special{
+        gap: 8px;
     }
 
-    .btn2 {
-        width: 130px;
+    .special img  {
+        margin: 0px;
+        padding-right: 0px;
+    }
+    .special span{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .btn6{
+        margin-left: 0px;
     }
 
-    .btn3 {
-        width: 80px;
-    }
-
-    .btn4 {
-        width: 120px;
-    }
-
-    .btn5 {
-        width: 80px;
-    }
-
-    .btn6 {
-        width: 100px;
-    }
-
-    .btn7 {
-        width: 100px;
-    }
-
-    .btn8 {
-        width: 100px;
-    }
-
-    .btn9 {
-        width: 140px;
-    }
 
     /* footer */
     .div1 .foot-title span {
@@ -724,7 +667,6 @@ footer .last {
     }
 
     .cat-img {
-        /* position: absolute; */
         width: 225px;
         position: absolute;
         top: 230px;
@@ -734,47 +676,22 @@ footer .last {
     /* btn */
     .grid-btn {
         margin-top: 140px;
-        grid-template-columns: repeat(3, 1fr);
         padding: 0px;
-        gap: 10px;
+        gap: 5px;
     }
-
-    .special {}
-
-    .btn1 {
-        width: 60px;
+    .special img{
+        margin-right: 0px;
+        padding-right: 0px;
     }
-
-    .btn2 {
-        width: 130px;
+    .special span{
+        padding-left: 0px;
+        margin-left: 0px;
     }
-
-    .btn3 {
-        width: 80px;
+    .btn6{
+        margin-left: 0px;
     }
-
-    .btn4 {
-        width: 120px;
-    }
-
-    .btn5 {
-        width: 80px;
-    }
-
-    .btn6 {
-        width: 100px;
-    }
-
-    .btn7 {
-        width: 100px;
-    }
-
-    .btn8 {
-        width: 100px;
-    }
-
-    .btn9 {
-        width: 140px;
+    .btn9{
+        margin: 0 auto;
     }
 
     /* footer */
